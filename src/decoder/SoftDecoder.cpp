@@ -1,6 +1,6 @@
 #include "SoftDecoder.h"
 #include <thread>
-#include "libavutil/avutil.h"
+
 #ifdef __linux__
 #include <pthread.h>
 #elif defined(_WIN32) || defined(_WIN64)

@@ -1,23 +1,65 @@
 CMakeFiles/YPlayerSDK.dir/src/control/SyncManager.cpp.obj: \
  D:/MySpace/Study/YPlayer/src/control/SyncManager.cpp \
- D:/MySpace/Study/YPlayer/include/control/SyncManager.h \
- D:/MySpace/Study/YPlayer/include/utils/YClock.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/time.h \
- D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
- D:/msys64/mingw64/include/stdint.h D:/msys64/mingw64/include/crtdefs.h \
- D:/msys64/mingw64/include/corecrt.h D:/msys64/mingw64/include/_mingw.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\log.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+ D:/msys64/mingw64/include/stdarg.h \
+ D:/msys64/mingw64/include/_mingw_stdarg.h \
+ D:/msys64/mingw64/include/vadefs.h D:/msys64/mingw64/include/_mingw.h \
  D:/msys64/mingw64/include/_mingw_mac.h \
  D:/msys64/mingw64/include/_mingw_secapi.h \
- D:/msys64/mingw64/include/vadefs.h \
  D:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\avutil.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\common.h \
+ D:/msys64/mingw64/include/errno.h D:/msys64/mingw64/include/crtdefs.h \
+ D:/msys64/mingw64/include/corecrt.h D:/msys64/mingw64/include/inttypes.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+ D:/msys64/mingw64/include/stdint.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
  D:/msys64/mingw64/include/stddef.h \
- D:/MySpace/Study/YPlayer/include/control/DataStreamContext.h \
- D:/msys64/mingw64/include/c++/15.1.0/atomic \
- D:/msys64/mingw64/include/c++/15.1.0/bits/version.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+ D:/msys64/mingw64/include/limits.h \
+ D:/msys64/mingw64/include/c++/15.1.0/math.h \
+ D:/msys64/mingw64/include/c++/15.1.0/cmath \
+ D:/msys64/mingw64/include/c++/15.1.0/bits/requires_hosted.h \
  D:/msys64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h \
  D:/msys64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
  D:/msys64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/msys64/mingw64/include/c++/15.1.0/bits/cpp_type_traits.h \
+ D:/msys64/mingw64/include/c++/15.1.0/bits/version.h \
+ D:/msys64/mingw64/include/c++/15.1.0/ext/type_traits.h \
+ D:/msys64/mingw64/include/math.h \
+ D:/msys64/mingw64/include/c++/15.1.0/bits/std_abs.h \
+ D:/msys64/mingw64/include/stdlib.h \
+ D:/msys64/mingw64/include/corecrt_wstdlib.h \
+ D:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ D:/msys64/mingw64/include/c++/15.1.0/stdlib.h \
+ D:/msys64/mingw64/include/malloc.h \
+ D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+ D:/msys64/mingw64/include/stdio.h \
+ D:/msys64/mingw64/include/corecrt_stdio_config.h \
+ D:/msys64/mingw64/include/_mingw_off_t.h \
+ D:/msys64/mingw64/include/swprintf.inl \
+ D:/msys64/mingw64/include/sec_api/stdio_s.h \
+ D:/msys64/mingw64/include/c++/15.1.0/cstdlib \
+ D:/msys64/mingw64/include/string.h \
+ D:/msys64/mingw64/include/sec_api/string_s.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\attributes.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\macros.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\version.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/avconfig.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\mem.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\error.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\rational.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\mathematics.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\intfloat.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\log.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil\pixfmt.h \
+ D:/MySpace/Study/YPlayer/include/control/SyncManager.h \
+ D:/MySpace/Study/YPlayer/include/utils/YClock.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/time.h \
+ D:/MySpace/Study/YPlayer/include/control/DataStreamContext.h \
+ D:/msys64/mingw64/include/c++/15.1.0/atomic \
  D:/msys64/mingw64/include/c++/15.1.0/bits/atomic_base.h \
  D:/msys64/mingw64/include/c++/15.1.0/new \
  D:/msys64/mingw64/include/c++/15.1.0/bits/exception.h \
@@ -26,12 +68,9 @@ CMakeFiles/YPlayerSDK.dir/src/control/SyncManager.cpp.obj: \
  D:/msys64/mingw64/include/c++/15.1.0/type_traits \
  D:/msys64/mingw64/include/c++/15.1.0/cstdint \
  D:/msys64/mingw64/include/c++/15.1.0/vector \
- D:/msys64/mingw64/include/c++/15.1.0/bits/requires_hosted.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/stl_algobase.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/functexcept.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/exception_defines.h \
- D:/msys64/mingw64/include/c++/15.1.0/bits/cpp_type_traits.h \
- D:/msys64/mingw64/include/c++/15.1.0/ext/type_traits.h \
  D:/msys64/mingw64/include/c++/15.1.0/ext/numeric_traits.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/stl_pair.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/utility.h \
@@ -69,46 +108,29 @@ CMakeFiles/YPlayerSDK.dir/src/control/SyncManager.cpp.obj: \
  D:/MySpace/Study/YPlayer/include/utils/FrameQueue.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/frame.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/common.h \
- D:/msys64/mingw64/include/errno.h D:/msys64/mingw64/include/inttypes.h \
- D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
- D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
- D:/msys64/mingw64/include/limits.h \
- D:/msys64/mingw64/include/c++/15.1.0/math.h \
- D:/msys64/mingw64/include/c++/15.1.0/cmath \
- D:/msys64/mingw64/include/math.h \
- D:/msys64/mingw64/include/c++/15.1.0/bits/std_abs.h \
- D:/msys64/mingw64/include/stdlib.h \
- D:/msys64/mingw64/include/corecrt_wstdlib.h \
- D:/msys64/mingw64/include/sec_api/stdlib_s.h \
- D:/msys64/mingw64/include/c++/15.1.0/stdlib.h \
- D:/msys64/mingw64/include/malloc.h \
- D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
- D:/msys64/mingw64/include/stdio.h \
- D:/msys64/mingw64/include/corecrt_stdio_config.h \
- D:/msys64/mingw64/include/_mingw_off_t.h \
- D:/msys64/mingw64/include/swprintf.inl \
- D:/msys64/mingw64/include/sec_api/stdio_s.h \
- D:/msys64/mingw64/include/c++/15.1.0/cstdlib \
- D:/msys64/mingw64/include/string.h \
- D:/msys64/mingw64/include/sec_api/string_s.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/macros.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/avconfig.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/mem.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/error.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/mathematics.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/intfloat.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/log.h \
- D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
- D:/msys64/mingw64/include/stdarg.h \
- D:/msys64/mingw64/include/_mingw_stdarg.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/dict.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavcodec/avcodec.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/cpu.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/channel_layout.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/dict.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/hwcontext.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/frame.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/log.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/log.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavcodec/version.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h \
  D:/msys64/mingw64/include/c++/15.1.0/mutex \
  D:/msys64/mingw64/include/c++/15.1.0/tuple \
  D:/msys64/mingw64/include/c++/15.1.0/bits/uses_allocator.h \
@@ -158,19 +180,4 @@ CMakeFiles/YPlayerSDK.dir/src/control/SyncManager.cpp.obj: \
  D:/msys64/mingw64/include/c++/15.1.0/bits/exception_ptr.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/cxxabi_init_exception.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/nested_exception.h \
- D:/msys64/mingw64/include/c++/15.1.0/bits/cxxabi_forced.h \
- D:/MySpace/Study/YPlayer/extern/include/libavcodec/avcodec.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/cpu.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/channel_layout.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/dict.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/hwcontext.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/frame.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/log.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
- D:/MySpace/Study/YPlayer/extern/include/libavcodec/version.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h
+ D:/msys64/mingw64/include/c++/15.1.0/bits/cxxabi_forced.h

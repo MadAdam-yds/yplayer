@@ -1,9 +1,13 @@
 
 #ifndef _PACKET_QUEUE_H_
 #define _PACKET_QUEUE_H_
+
+extern "C"{ 
+#include <libavformat/avformat.h>
+
+}
 #include <mutex>
 #include <condition_variable>
-#include <libavformat/avformat.h>
 #include "IPacketSource.h"
 #include "commonType.h"
 #include "DataStreamContext.h"

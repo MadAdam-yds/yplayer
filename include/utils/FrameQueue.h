@@ -1,12 +1,14 @@
 #ifndef _FRAME_QUEUE_H_
 #define _FRAME_QUEUE_H_
-#include "commonType.h"
+extern "C"{
 #include <libavutil/frame.h>
+#include "libavcodec/avcodec.h"
+}
+#include "commonType.h"
 #include <vector>
 #include <mutex>
 #include <condition_variable>
 #include "DataStreamContext.h"
-#include "libavcodec/avcodec.h"
 typedef struct Frame {
     AVFrame *frame;       //视频OR音频
     AVSubtitle sub;       //字幕

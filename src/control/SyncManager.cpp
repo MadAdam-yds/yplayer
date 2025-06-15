@@ -1,12 +1,21 @@
+extern "C"{
+#include "libavutil\log.h"
+}
 #include "SyncManager.h"
+
 SyncManager::SyncManager(){
     max_frame_duration = 0.0;
 }
-ENUM_AV_SYNC_TYPE SyncManager::getMasterSyncType(){
+SyncManager::~SyncManager(){
+    //资源释放
+
 
 }
+ENUM_AV_SYNC_TYPE SyncManager::getMasterSyncType(){
+    return AV_SYNC_VIDEO_MASTER;// 暂时先这样
+}
 double SyncManager::getMasterClock(){
-
+    return 0.0;   // 暂时先这样
 } 
 void  SyncManager::setExtClockSpeed(double speed){
     
@@ -129,6 +138,7 @@ Clock SyncManager::getClockObj(ENUM_CLOCK_TYPE clockType){
             return *pVidClock;
         case CLOCK_EXTERNAL: 
             return *pExtClock;
-       
+       default: 
+            return *pVidClock; // 暂时先这样
     }
 }

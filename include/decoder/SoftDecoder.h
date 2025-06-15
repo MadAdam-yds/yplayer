@@ -1,9 +1,13 @@
 #ifndef _SOFTDECODER_H_
 #define _SOFTDECODER_H_
 
+extern "C"{
+#include "libavutil/avutil.h"
+#include "libavcodec/avcodec.h"
+#include "libavformat/avformat.h"
+}
 #include "IDecoder.h"
 #include "FrameQueue.h"
-#include <libavformat/avformat.h>
 #include<memory>
 #include<thread>
 #include<atomic>

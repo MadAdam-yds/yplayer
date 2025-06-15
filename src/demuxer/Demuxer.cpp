@@ -1,5 +1,4 @@
 #include "Demuxer.h"
-#include <libavutil/log.h>
 #include <thread>
 #include "YPlayerSDK.h"
 Demuxer::Demuxer(const string &url,DataStreamContext &ctx):

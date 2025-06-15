@@ -4,7 +4,7 @@
 // extern "C":编译规则,禁用C++名称修饰（Name Mangling），保证符号的C语言ABI兼容性，ABI表示一些二进制级别的规范.
 // __declspec(dllexport):链接规则,声明符号来自外部dll.
 #if defined(_WIN32) || defined(_WIN64)
-    #define YPLAYER_API  extern "C" __declspec(dllimport) 
+    #define YPLAYER_API  extern "C" __declspec(dllexport) 
     #define CALLBACK __stdcall
 #elif defined(__linux__)
     #define YPLAYER_API  extern "C"

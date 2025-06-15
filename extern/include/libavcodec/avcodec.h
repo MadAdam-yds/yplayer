@@ -4049,7 +4049,7 @@ typedef struct AVCodecParameters {
     /**
      * Video only. Number of delayed frames.
      */
-    int video_delay;
+    int video_delay;        //解码缓冲延迟对应B帧个数:AVCodecContext中的has_b_frames
 
     /**
      * Audio only. The channel layout bitmask. May be 0 if the channel layout is

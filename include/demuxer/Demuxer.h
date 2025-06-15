@@ -1,7 +1,10 @@
 #ifndef _DEMUXER_H_
 #define _DEMUXER_H_
-#include <string>
+extern "C"{ 
+#include <libavutil/log.h>
 #include <libavformat/avformat.h>
+}
+#include <string>
 #include"commonType.h"
 #include "PacketQueue.h"
 #include <memory>

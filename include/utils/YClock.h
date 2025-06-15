@@ -1,6 +1,8 @@
 #ifndef _YPLAYER_CLOCK_H_
 #define _YPLAYER_CLOCK_H_
+extern "C"{ 
 #include "libavutil/time.h"
+}
 #include "DataStreamContext.h"
 class Clock:public ISerialListener
 {

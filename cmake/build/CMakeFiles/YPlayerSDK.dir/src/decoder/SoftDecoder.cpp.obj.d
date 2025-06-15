@@ -1,35 +1,19 @@
 CMakeFiles/YPlayerSDK.dir/src/decoder/SoftDecoder.cpp.obj: \
  D:/MySpace/Study/YPlayer/src/decoder/SoftDecoder.cpp \
  D:/MySpace/Study/YPlayer/include/decoder/SoftDecoder.h \
- D:/MySpace/Study/YPlayer/include/decoder/IDecoder.h \
- D:/MySpace/Study/YPlayer/include/utils/IPacketSource.h \
- D:/MySpace/Study/YPlayer/extern/include/libavformat/avformat.h \
- D:/msys64/mingw64/include/time.h D:/msys64/mingw64/include/crtdefs.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/common.h \
+ D:/msys64/mingw64/include/errno.h D:/msys64/mingw64/include/crtdefs.h \
  D:/msys64/mingw64/include/corecrt.h D:/msys64/mingw64/include/_mingw.h \
  D:/msys64/mingw64/include/_mingw_mac.h \
  D:/msys64/mingw64/include/_mingw_secapi.h \
  D:/msys64/mingw64/include/vadefs.h \
  D:/msys64/mingw64/include/sdks/_mingw_ddk.h \
- D:/msys64/mingw64/include/sys/timeb.h \
- D:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
- D:/msys64/mingw64/include/_timeval.h \
- D:/msys64/mingw64/include/pthread_time.h \
- D:/msys64/mingw64/include/pthread_compat.h \
- D:/msys64/mingw64/include/stdio.h \
- D:/msys64/mingw64/include/corecrt_stdio_config.h \
- D:/msys64/mingw64/include/_mingw_off_t.h \
- D:/msys64/mingw64/include/swprintf.inl \
- D:/msys64/mingw64/include/sec_api/stdio_s.h \
- D:/MySpace/Study/YPlayer/extern/include/libavcodec/avcodec.h \
- D:/msys64/mingw64/include/errno.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
+ D:/msys64/mingw64/include/inttypes.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  D:/msys64/mingw64/include/stdint.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
  D:/msys64/mingw64/include/stddef.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/common.h \
- D:/msys64/mingw64/include/inttypes.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
  D:/msys64/mingw64/include/limits.h \
@@ -50,6 +34,11 @@ CMakeFiles/YPlayerSDK.dir/src/decoder/SoftDecoder.cpp.obj: \
  D:/msys64/mingw64/include/c++/15.1.0/stdlib.h \
  D:/msys64/mingw64/include/malloc.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+ D:/msys64/mingw64/include/stdio.h \
+ D:/msys64/mingw64/include/corecrt_stdio_config.h \
+ D:/msys64/mingw64/include/_mingw_off_t.h \
+ D:/msys64/mingw64/include/swprintf.inl \
+ D:/msys64/mingw64/include/sec_api/stdio_s.h \
  D:/msys64/mingw64/include/c++/15.1.0/cstdlib \
  D:/msys64/mingw64/include/string.h \
  D:/msys64/mingw64/include/sec_api/string_s.h \
@@ -59,6 +48,7 @@ CMakeFiles/YPlayerSDK.dir/src/decoder/SoftDecoder.cpp.obj: \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/avconfig.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/mem.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/error.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/mathematics.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/intfloat.h \
@@ -67,8 +57,9 @@ CMakeFiles/YPlayerSDK.dir/src/decoder/SoftDecoder.cpp.obj: \
  D:/msys64/mingw64/include/stdarg.h \
  D:/msys64/mingw64/include/_mingw_stdarg.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavcodec/avcodec.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/cpu.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/channel_layout.h \
@@ -84,9 +75,17 @@ CMakeFiles/YPlayerSDK.dir/src/decoder/SoftDecoder.cpp.obj: \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
  D:/MySpace/Study/YPlayer/extern/include/libavcodec/version.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavformat/avformat.h \
+ D:/msys64/mingw64/include/time.h D:/msys64/mingw64/include/sys/timeb.h \
+ D:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+ D:/msys64/mingw64/include/_timeval.h \
+ D:/msys64/mingw64/include/pthread_time.h \
+ D:/msys64/mingw64/include/pthread_compat.h \
  D:/MySpace/Study/YPlayer/extern/include/libavformat/avio.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/common.h \
  D:/MySpace/Study/YPlayer/extern/include/libavformat/version.h \
+ D:/MySpace/Study/YPlayer/include/decoder/IDecoder.h \
+ D:/MySpace/Study/YPlayer/include/utils/IPacketSource.h \
  D:/msys64/mingw64/include/c++/15.1.0/memory \
  D:/msys64/mingw64/include/c++/15.1.0/bits/memoryfwd.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/allocator.h \

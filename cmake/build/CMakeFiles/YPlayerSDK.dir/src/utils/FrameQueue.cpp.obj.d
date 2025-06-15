@@ -1,7 +1,6 @@
 CMakeFiles/YPlayerSDK.dir/src/utils/FrameQueue.cpp.obj: \
  D:/MySpace/Study/YPlayer/src/utils/FrameQueue.cpp \
  D:/MySpace/Study/YPlayer/include/utils/FrameQueue.h \
- D:/MySpace/Study/YPlayer/include/common/commonType.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/frame.h \
  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
  D:/msys64/mingw64/include/stddef.h D:/msys64/mingw64/include/crtdefs.h \
@@ -60,6 +59,22 @@ CMakeFiles/YPlayerSDK.dir/src/utils/FrameQueue.cpp.obj: \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/dict.h \
  D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavcodec/avcodec.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/cpu.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/channel_layout.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/dict.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/hwcontext.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/frame.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/log.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavcodec/version.h \
+ D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h \
+ D:/MySpace/Study/YPlayer/include/common/commonType.h \
  D:/msys64/mingw64/include/c++/15.1.0/vector \
  D:/msys64/mingw64/include/c++/15.1.0/bits/stl_algobase.h \
  D:/msys64/mingw64/include/c++/15.1.0/bits/functexcept.h \
@@ -154,19 +169,4 @@ CMakeFiles/YPlayerSDK.dir/src/utils/FrameQueue.cpp.obj: \
  D:/MySpace/Study/YPlayer/include/control/DataStreamContext.h \
  D:/msys64/mingw64/include/c++/15.1.0/atomic \
  D:/msys64/mingw64/include/c++/15.1.0/bits/atomic_base.h \
- D:/msys64/mingw64/include/c++/15.1.0/bits/atomic_lockfree_defines.h \
- D:/MySpace/Study/YPlayer/extern/include/libavcodec/avcodec.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/samplefmt.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/attributes.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/avutil.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/buffer.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/cpu.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/channel_layout.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/dict.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/hwcontext.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/frame.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/log.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/pixfmt.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/rational.h \
- D:/MySpace/Study/YPlayer/extern/include/libavcodec/version.h \
- D:/MySpace/Study/YPlayer/extern/include/libavutil/version.h
+ D:/msys64/mingw64/include/c++/15.1.0/bits/atomic_lockfree_defines.h

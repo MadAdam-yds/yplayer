@@ -1,6 +1,9 @@
+extern "C"{
+#include "libavutil/imgutils.h"
+#include "libavutil/time.h"
+}
 #include "Player.h"
 #include "YPlayerSDK.h"
-#include "libavutil/imgutils.h"
 DECODE_CALLBACK_PF Player::decCallbackPF = nullptr; 
 Player::Player(){
     workState = YPLAYER_STATE_IDLE;
@@ -169,9 +172,10 @@ int Player::vidCallbackThreadFunc(void *arg){
             pPlayer->forceRefresh = 0;
         }
     }
-
+    return YPLAYER_OK;
 }
 // 音频sample回调函数
 int Player::audCallbackThreadFunc(void *arg){
+    return YPLAYER_OK;
 
 }

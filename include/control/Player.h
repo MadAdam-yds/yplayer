@@ -53,7 +53,7 @@ public:
     void setDecodeCallback(DECODE_CALLBACK_PF callback,void *user);
     static DECODE_CALLBACK_PF decCallbackPF;    // 解码后数据的回调函数
     void *puser;                                // 解码后数据的回调函数的参数
-    setPort(uint32_t po){port = po;}
+    void setPort(uint32_t po){port = po;}
     bool checkUrl(string url);         // 检查url
 private:
     uint32_t port;

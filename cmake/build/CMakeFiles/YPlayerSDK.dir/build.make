@@ -354,11 +354,13 @@ libYPlayerSDK.dll: CMakeFiles/YPlayerSDK.dir/src/utils/IPacketSource.cpp.obj
 libYPlayerSDK.dll: CMakeFiles/YPlayerSDK.dir/src/utils/PacketQueue.cpp.obj
 libYPlayerSDK.dll: CMakeFiles/YPlayerSDK.dir/src/utils/YClock.cpp.obj
 libYPlayerSDK.dll: CMakeFiles/YPlayerSDK.dir/build.make
-libYPlayerSDK.dll: D:/msys64/usr/local/bin/avcodec.lib
-libYPlayerSDK.dll: D:/msys64/usr/local/bin/avformat.lib
-libYPlayerSDK.dll: D:/msys64/usr/local/bin/avutil.lib
-libYPlayerSDK.dll: D:/msys64/usr/local/bin/swresample.lib
-libYPlayerSDK.dll: D:/msys64/usr/local/bin/swscale.lib
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/avcodec-58.dll
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/avdevice-58.dll
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/avfilter-7.dll
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/avformat-58.dll
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/avutil-56.dll
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/swresample-3.dll
+libYPlayerSDK.dll: D:/MySpace/Study/YPlayer/extern/lib/swscale-5.dll
 libYPlayerSDK.dll: CMakeFiles/YPlayerSDK.dir/linkLibs.rsp
 libYPlayerSDK.dll: CMakeFiles/YPlayerSDK.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/D/MySpace/Study/YPlayer/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libYPlayerSDK.dll"

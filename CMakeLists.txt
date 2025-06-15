@@ -60,16 +60,16 @@ add_definitions(-DNO_MULTICAST)
 
 
 # 引入外部依赖库
-set(LIB_PATH ${PROJECT_SOURCE_DIR}/extern/lib)
-find_library(AVCODEC avcodec ${LIB_PATH})
-find_library(AVFORMAT avformat ${LIB_PATH})
-find_library(AVUTIL avutil ${LIB_PATH})
-find_library(SWRESAMPLE swresample ${LIB_PATH})
-find_library(SWSCALER  swscale ${LIB_PATH})
-message(">>>LibPath:${LIB_PATH}")
-if(AVCODEC)
-    message(">>>find:${AVCODEC}")
-endif()
+#set(LIB_PATH ${PROJECT_SOURCE_DIR}/extern/lib)
+#find_library(AVCODEC avcodec-58.dll ${LIB_PATH})
+#find_library(AVFORMAT avformat ${LIB_PATH})
+#find_library(AVUTIL avutil ${LIB_PATH})
+#find_library(SWRESAMPLE swresample ${LIB_PATH})
+#find_library(SWSCALER  swscale ${LIB_PATH})
+#message(">>>LibPath:${LIB_PATH}")
+#if(AVCODEC)
+#    message(">>>find:${AVCODEC}")
+#endif()
 
 # 设置编译选项
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -g -Wl,--no-undefined -lpthread")
@@ -86,23 +86,42 @@ message(">>>IncludeDir:${dir}")
 # 递归扫描src目录下的所有源文件
 file(GLOB_RECURSE SRC_FILES "src/*.cpp")
 
+# 添加包含目录 target_include_directories可以避免全局路径污染.
+include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/include/api)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/include/common)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/include/control)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/include/decoder)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/include/demuxer)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/include/utils)
+include_directories(${PROJECT_NAME}  ${PROJECT_SOURCE_DIR}/extern/include)
+
+# include_directories(BEFORE SYSTEM ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})  # 强制系统路径优先
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include)
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/api)
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/common)
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/control)
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/decoder)
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/demuxer)
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/utils)
+# ffmpeg头文件目录
+# target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/extern/include)
+#target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/extern/include/libavcodec)
+
 # 创建动态库
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 # 声明依赖库
-target_link_libraries(${PROJECT_NAME} PRIVATE  ${AVCODEC} ${AVFORMAT} ${AVUTIL} ${SWRESAMPLE} ${SWSCALER})
-# 添加包含目录 target_include_directories可以避免全局路径污染.
-# include_directories(${PROJECT_SOURCE_DIR}/include)
-include_directories(BEFORE SYSTEM ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})  # 强制系统路径优先
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/api)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/common)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/control)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/decoder)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/demuxer)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include/utils)
-# ffmpeg头文件目录
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/extern/include)
-#target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/extern/include/libavcodec)
+# target_link_libraries(${PROJECT_NAME} PRIVATE  ${AVCODEC} ${AVFORMAT} ${AVUTIL} ${SWRESAMPLE} ${SWSCALER})
+set(FFMPEG_LIB_PATH ${PROJECT_SOURCE_DIR}/extern/lib)
+message(">>> target link libraries:${FFMPEG_LIB_PATH}")
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/avcodec-58.dll)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/avdevice-58.dll)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/avfilter-7.dll)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/avformat-58.dll)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/avutil-56.dll)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/swresample-3.dll)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FFMPEG_LIB_PATH}/swscale-5.dll)
+
 
 
 
