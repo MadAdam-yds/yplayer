@@ -1,0 +1,1 @@
+ D:/msys64/usr/local/bin/avcodec.lib D:/msys64/usr/local/bin/avformat.lib D:/msys64/usr/local/bin/avutil.lib D:/msys64/usr/local/bin/swresample.lib D:/msys64/usr/local/bin/swscale.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

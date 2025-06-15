@@ -1,0 +1,3 @@
+D:/MySpace/Study/YPlayer/cmake/build/CMakeFiles/YPlayerSDK.dir
+D:/MySpace/Study/YPlayer/cmake/build/CMakeFiles/edit_cache.dir
+D:/MySpace/Study/YPlayer/cmake/build/CMakeFiles/rebuild_cache.dir
